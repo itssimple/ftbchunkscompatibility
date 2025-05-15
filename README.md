@@ -1,5 +1,3 @@
-# Mob Pacifier by NoLifeKing85
+# FTB Chunk Compatibility by NoLifeKing85
 
-This mod gives you the ability to survive the night, even with monster around you.
-
-Just hold some rotten flesh in your off-hand, and some mobs will not attack you at once.
+Project that aims to add compatibility with other mods for FTB Chunks
