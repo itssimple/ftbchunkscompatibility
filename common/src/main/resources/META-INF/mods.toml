@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="${forge_loader_version_range}"
+license="${license}"
+issueTrackerURL="https://github.com/itssimple/.mod-issue-tracker"
+logoFile="icon.png"
+
+[[mods]]
+modId="${mod_id}"
+version="${version}"
+displayName="${mod_name}"
+displayURL=""
+authors="$mod_author"
+description='''${description}'''
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="SERVER"
+
+[[dependencies.${mod_id}]]
+    modId="supplementaries"
+    mandatory=false
+    versionRange="[3.1.30,)"
+    ordering="AFTER"
+    side="SERVER"
+
+[[dependencies.${mod_id}]]
+    modId="ftb-chunks-forge"
+    mandatory=false
+    versionRange="[2001.3.6,)"
+    ordering="AFTER"
+    side="SERVER"
